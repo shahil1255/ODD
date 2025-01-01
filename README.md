@@ -5,20 +5,18 @@ import java.util.Scanner;
 
 
 
-// User Class for storing user credentials
+
 
 class User {
 
-    private String username;
-
-    private String password;
+private String username;
+ private String password;
 
 
 
     public User(String username, String password) {
 
         this.username = username;
-
         this.password = password;
 
     }
@@ -39,15 +37,7 @@ class User {
 
     }
 
-}
-
-
-
-// CurrencyConverter Class
-
 class CurrencyConverter {
-
-    // Static conversion rates (for demonstration)
 
     private static final double USD_TO_EUR = 0.85;
 
@@ -93,7 +83,7 @@ class CurrencyConverter {
 
 
 
-// Main System with Login and Registration
+
 
 public class CurrencyConverterSystem {
 
@@ -133,7 +123,7 @@ public class CurrencyConverterSystem {
 
                 int choice = scanner.nextInt();
 
-                scanner.nextLine();  // Consume newline
+                scanner.nextLine();  /
 
 
 
@@ -171,7 +161,7 @@ public class CurrencyConverterSystem {
 
                 int choice = scanner.nextInt();
 
-                scanner.nextLine();  // Consume newline
+                scanner.nextLine();  
 
 
 
